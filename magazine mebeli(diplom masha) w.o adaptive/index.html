@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Планета мебели</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+			<img class="logo" src="img/logo/logo.svg" width="252" alt="Магазин мебели">
+			<div class="site-title">Магазин мебели</div>
+			<p class="lead">Ваш дом это целая планета</p>
+		</div>
+	</header>
+
+	<div class="main-page container mb-5">
+		<div class="row">
+			<div class="wrapper">
+				<div class="filter-secondary" id="shop">
+				  <h2 class="center-align">Разделы</h2>
+				  <ul class="filter-secondary__row filter-secondary__row_index">
+					<li class="filter-secondary__col">
+					  <a href="catalog/divany.html" class="filter-secondary__lnk">
+					  <div class="filter-secondary__icon" style="background-image: url('img/catalog_1855.svg');"></div>
+					  <div class="filter-secondary__category">
+						Диваны
+					  </div></a>
+					</li>
+					<li class="filter-secondary__col">
+					  <a href="catalog/shkafy/index.html" class="filter-secondary__lnk">
+					  <div class="filter-secondary__icon" style="background-image: url('img/catalog_33.svg');"></div>
+					  <div class="filter-secondary__category">
+						Шкафы
+					  </div></a>
+					</li>
+					<li class="filter-secondary__col">
+						<a href="/category/mebel-dlya-doma/prihozhie/" class="filter-secondary__lnk">
+							<div class="filter-secondary__icon" style="background-image: url('img/catalog_411.svg');"></div>
+							<div class="filter-secondary__category">Прихожие в коридор</div>
+						</a>
+					</li>
+					<li class="filter-secondary__col">
+						<a href="/category/mebel-dlya-doma/stenki_dlya_gostinoi/" class="filter-secondary__lnk">
+							<div class="filter-secondary__icon" style="background-image: url('img/catalog_406.svg');"></div>
+							<div class="filter-secondary__category">Стенки для гостиной</div>
+						</a>
+					</li>
+				  </ul>
+				</div>
+			</div>
+			<div class="promo-container" style="margin: auto;">
+				<a href="#shop"><img style="width: 1200px;" src="img/news.svg"></a>
+				<img style="width: 1200px; margin-top: 35px;" src="img/banners.svg">
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="wrapper">
+		  <div class="footer__row">
+			<div class="footer__col">
+			  <div class="footer-about">
+				<div class="footer-about__title">
+				  Планета Мебели
+				</div>
+				<div class="footer-about__info">
+				  <p>Горячая линия<br><span style="font-weight: 600;">8 800 300 30 00</span></p>
+				  <p></p>
+				  <p>Электронная почта<br><span style="font-weight: 600;">info@mebel.ru</span></p>
+				</div>
+			  </div>
+			</div>
+			<div class="footer__col">
+			  <div class="footer-nav">
+				<div class="footer-nav__title">
+				  Планета Мебели
+				</div>
+				<ul class="footer-nav__list">
+				  <li class="footer-nav__item">
+					<a href="" target="_blank">Франчайзинг</a>
+				  </li><!--noindex-->
+				  <li class="footer-nav__item">
+					<a href="" target="_blank" rel="nofollow">Вакансии</a>
+				  </li><!--/noindex-->
+				  <li class="footer-nav__item">
+					<a href="">Партнерская программа для магазинов</a>
+				  </li>
+				  <li class="footer-nav__item">
+					<a href="">Партнерская программа для вебмастеров</a>
+				  </li>
+				  <li class="footer-nav__item">
+					<a href="">Корпоративные продажи</a>
+				  </li>
+				  <li class="footer-nav__item">
+					<a href="">Поставщикам</a>
+				  </li>
+				  <li class="footer-nav__item">
+					<a href="">Обращение в сервис</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+			<div class="footer__col">
+			  <div class="footer-contact">
+				<div class="footer-contact__title">
+				  <img width="190" src="img/logo/logo.svg">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="footer-copyrights footer__row">
+			<div class="footer-copyrights__col footer__col">
+			  ©&nbsp;2023 – 2023 Планета Мебели
+			</div>
+			<div class="footer-copyrights__col footer__col"></div>
+		  </div>
+		</div>
+		<div class="top-button-wrapper" style="display: block; position: fixed; bottom: 50px;"></div>
+	  </footer>
+
+	<!-- Подключаем скрипты -->
+
+	<script src="./js/renderProducts.js"></script>
+	<script src="./js/calcCartPrice.js"></script>
+	<script src="./js/toggleCartStatus.js"></script>
+	<script src="./js/counter-02.js"></script>
+	<script src="./js/cart-02.js"></script>
+
+</body>
+</html>
